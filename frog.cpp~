@@ -1,0 +1,7 @@
+#include <QtGui>
+#include "Frog.h"
+
+Frog::Frog (QWidget *parent) : QWidget(parent) {
+  queryEditor = new QTextEdit(parent);
+}
+
